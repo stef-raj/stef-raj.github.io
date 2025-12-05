@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Just Know Do Stuff - A Project-Based Curriculum
-date: 2025-12-05
+date: 2025-12-04
 ---
 
 # 🎓 Just Know Do Stuff: A Project-Based Curriculum
