@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Just Know Do Stuff - A Project-Based Curriculum
+title: Just Do Stuff - A Project-Based Curriculum
 date: 2025-12-04
 ---
 
-# 🎓 Just Know Do Stuff: A Project-Based Curriculum
+# 🎓 Just Do Stuff: A Project-Based Curriculum
 
 This project-based curriculum is directly inspired by Patrick Kidger's influential post, "Just Know Stuff," which outlines the crucial knowledge base for success in a machine learning PhD.
 

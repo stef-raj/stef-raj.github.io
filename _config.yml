@@ -8,3 +8,9 @@ theme: jekyll-theme-cayman
 
 # Markdown engine (kramdown is default for GitHub Pages)
 markdown: kramdown
+
+# Permalink structure for blog posts
+permalink: /:year/:month/:day/:title/
+
+# Allow future posts to be published
+future: true
