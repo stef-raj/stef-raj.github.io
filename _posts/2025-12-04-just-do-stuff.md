@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Just Do Stuff - A Project-Based Curriculum
 date: 2025-12-04
 ---

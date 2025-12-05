@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Projects — "Just Know Stuff" Index"
+title: 'Projects — "Just Know Stuff" Index'
 permalink: /projects/
 ---
 
