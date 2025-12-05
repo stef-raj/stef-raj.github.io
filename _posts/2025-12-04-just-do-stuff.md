@@ -6,7 +6,7 @@ date: 2025-12-04
 
 # 🎓 Just Do Stuff: A Project-Based Curriculum
 
-This project-based curriculum is directly inspired by Patrick Kidger's influential post, "Just Know Stuff," which outlines the crucial knowledge base for success in a machine learning PhD.
+This project-based curriculum is directly inspired by Patrick Kidger's influential post, "Just Know Stuff," which outlines the crucial knowledge base for success in a machine learning research.
 
 ## 🤖 Machine Learning Projects
 
@@ -41,6 +41,10 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
     * Implement a basic **score-based diffusion model** from scratch.
     * Study and implement the basics of **normalising flows**, **VAEs**, and **WGANs**.
     * *Link to project details:* [Project: Generative Models](/projects/generative-models/)
+* **The Manifold Hypothesis & Kernels**
+    * create a visualization demonstrating the **Manifold Hypothesis** (data lying on a low-dimensional manifold embedded in high-dimensional space).
+    * Implement a basic **Kernel method** and compare it to a linear method to understand the "kernel trick."
+    * *Link to project details:* [Project: Manifolds and Kernels](/projects/manifolds-kernels/)
 * **Reinforcement Learning Implementation**
     * Learn the basics of **policy gradients**.
     * Implement the **PPO algorithm** to solve the **cart-pole problem**.
@@ -64,7 +68,16 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
 * **Matrix Decompositions and Linear Solves**
     * Implement and compare solving a linear system ($Ax=b$) using **QR, LU, SVD, and Cholesky decompositions**. Document their computational costs and stability.
     * Solve a **linear least squares** problem via the **normal equations** and analyze the condition number squaring effect.
+    * Understand and implement the **Moore–Penrose pseudoinverse**.
     * *Link to project details:* [Project: Matrix Decompositions](/projects/matrix-decompositions/)
+* **Sparse Matrices and Solvers**
+    * Implement or analyze different sparse formats (**CSC, COO**) and compare memory usage to dense matrices.
+    * Implement a basic **Sparse linear solver** (e.g., iterative/Krylov methods) and investigate **Linear preconditioners**.
+    * *Link to project details:* [Project: Sparsity](/projects/sparsity/)
+* **Approximation Theory**
+    * Implement function approximation using **Chebyshev polynomials**.
+    * *(Optional)* Implement a basic **Wavelet transform**.
+    * *Link to project details:* [Project: Approximation Theory](/projects/approximation/)
 * **Numerical Differential Equation Solvers**
     * Implement and compare the **Explicit Euler method** and **Heun's method**.
     * *(Optional)* Implement the **Implicit Euler method** and analyze its stability condition based on the contraction mapping theorem.
@@ -92,6 +105,10 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
 * **Python Code Quality Setup**
     * Configure a project with **`pre-commit` hooks** using **Black**, **flake8**, and **isort** (or use ruff).
     * *Link to project details:* [Project: Code Quality Tools](/projects/code-quality-tools/)
+* **High-Performance Languages**
+    * Learn a performance-oriented language (**C++, Rust, or Triton**) to replace a slow Python bottleneck.
+    * *(Optional)* Re-implement a core algorithm in **Rust** and benchmark it against Python.
+    * *Link to project details:* [Project: High Performance](/projects/high-performance/)
 * **C++ Integration with Python**
     * Write a simple numerical function in C++ demonstrating **pass-by-reference vs pass-by-copy** and **pointers**.
     * Write **Python bindings** for this C++ function using **pybind11** (and potentially LibTorch).
@@ -105,6 +122,10 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
     * Study and implement simple functions in **Haskell** to understand **monads** and **referential transparency**.
     * Compare and contrast **sum types** and **union types**.
     * *Link to project details:* [Project: Functional Programming](/projects/functional-programming/)
+* **Metaprogramming and ASTs**
+    * Learn some **Common Lisp or Scheme**.
+    * Write a Lisp **macro** to understand why code is the same as its **Abstract Syntax Tree (AST)** (homoiconicity).
+    * *Link to project details:* [Project: Metaprogramming](/projects/metaprogramming/)
 * **Data Structures and Complexity**
     * Implement the **Fibonacci sequence** using **dynamic programming** (and compare it to **`functools.lru_cache`**).
     * Write a technical note explaining the **big-O complexity** of a Python `dict` (hash map) and the memory allocation trick for Python lists.
@@ -116,7 +137,8 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
 
 * **Foundational Analysis**
     * Write a formal report on the concepts of **Convexity** and **Lipschitz continuity**, explaining their role in bounding functions and optimization.
-    * *Link to project details:* [Project: Convex and Lipschitz](/projects/convex-lipschitz/)
+    * Define and provide examples for **Injectivity, Surjectivity, and Bijectivity**.
+    * *Link to project details:* [Project: Analysis Basics](/projects/analysis-basics/)
 * **Measure Theory and Probability**
     * Study the basics of **probability via measure theory**.
     * Study **integration via measure theory**, focusing on **Fubini’s theorem** and the **Leibniz Integral Rule**.
@@ -126,6 +148,9 @@ This project-based curriculum is directly inspired by Patrick Kidger's influenti
     * Summarize the core concepts of **open sets, closed sets, compactness, and continuous functions** in topology.
     * Review the basics of **Real Analysis** (epsilon-delta proofs) and **Functional Analysis** (e.g., the Weierstraß Approximation Theorem).
     * *Link to project details:* [Project: Analysis and Topology](/projects/analysis-topology/)
+* **Fourier Analysis**
+    * Study **Fourier Series** and implement a decomposition of a simple signal (e.g., a square wave).
+    * *Link to project details:* [Project: Fourier Analysis](/projects/fourier/)
 * **Differential Equations and Calculus**
     * Study **Ordinary Differential Equations**, focusing on **linearization around equilibria**.
     * Review and apply vector calculus concepts: **Div, Grad, and Curl**.
