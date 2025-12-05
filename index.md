@@ -9,4 +9,4 @@ Welcome to my minimal blog. This site uses the `jekyll-theme-cayman` theme and i
 
 Learn more about this site on the [About](/about/) page.
 
-Check out [Just Do Stuff](/just_do_stuff/) for more content.
+Check out [Just Do Stuff](/2025/12/05/just-do-stuff/) for more content.
