@@ -1,0 +1,10 @@
+title: "My Minimal Blog"
+description: "A simple blog hosted on GitHub Pages"
+theme: jekyll-theme-cayman
+
+# Optional: set these if you host at a custom domain or project page
+# url: "https://your-username.github.io"
+# baseurl: "" # leave blank for user/organization pages
+
+# Markdown engine (kramdown is default for GitHub Pages)
+markdown: kramdown
