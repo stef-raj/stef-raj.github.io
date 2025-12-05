@@ -1,0 +1,13 @@
+.bundle/*
+vendor/*
+
+_site/*
+
+.DS_Store
+
+*.log
+
+Gemfile
+
+Gemfile.lock
+
