@@ -1,10 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 import numpy as np
 from sklearn.datasets import make_swiss_roll
-from src.utils.plotting import plot_swiss_roll
+from manifolds_kernels.utils.plotting import plot_swiss_roll
 
 def main():
     print("Generating Swiss Roll...")

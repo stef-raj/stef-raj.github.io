@@ -1,13 +1,9 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 import numpy as np
 from sklearn.datasets import make_circles
 import matplotlib.pyplot as plt
 
-from src.models.krr import KernelRidgeRegression
-from src.utils.plotting import plot_kernel_results
+from manifolds_kernels.models.krr import KernelRidgeRegression
+from manifolds_kernels.utils.plotting import plot_kernel_results
 
 def main():
     print("Generating Concentric Circles (Non-linear)...")
