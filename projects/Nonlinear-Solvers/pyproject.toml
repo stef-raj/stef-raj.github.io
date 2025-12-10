@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nonlinear-solvers"
+version = "0.1.0"
+description = "Nonlinear Solvers Comparison"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nonlinear_solvers"]
