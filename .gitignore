@@ -11,3 +11,18 @@ Gemfile
 
 Gemfile.lock
 
+projects/Approximation-Theory/
+projects/Diffeq-Solvers/
+projects/Numerical-Integration/
+projects/Floating-Point-Quirks/
+projects/Advanced-Python/
+projects/Package-CI/
+projects/Code-Quality-Tools/
+projects/High-Performance/
+projects/CXX-Bindings/
+projects/Julia-Dispatch/
+projects/Functional-Programming/
+projects/Metaprogramming/
+projects/Complexity-DS/
+projects/Distributed-Systems/
+projects/Sparsity/
