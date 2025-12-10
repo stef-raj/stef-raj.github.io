@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "distributed-hpo"
+version = "0.1.0"
+description = "Distributed Training and HPO with JAX/Ax"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ax-platform>=0.5.0",
+    "flax>=0.10.3",
+    "jax>=0.5.1",
+    "jaxlib>=0.4.34",
+    "numpy>=2.3.5",
+    "optax>=0.1.7",
+    "scikit-learn>=1.5.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dist_hpo"]
